@@ -1,0 +1,28 @@
+.button-container {
+    height: 70px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgb(15, 185, 252);
+    border-radius: 15px;
+    border: solid 2px white;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;    
+    box-shadow: -1px 4px 1px 1px rgb(255, 255, 255);
+}
+.button-container:hover {
+    background-color: rgb(4, 78, 189);
+}
+.operator {
+    background-color: rgb(55, 110, 228);
+}
+.operator:hover {
+    background-color: rgb(6, 6, 173);
+}
+.button-container:active {
+    transform: scale(.9);
+}
