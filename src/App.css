@@ -7,6 +7,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .title {
   width: 100%;
@@ -14,11 +16,11 @@
   color:rgb(255, 255, 255);
 }
 .calculator-container {
-  width: 400px;
-  height: 580px;
-  padding: 1rem;
+  width: 95%;
+  max-width: 300px;
+  padding: .5rem;
   background-color: rgb(23, 4, 78);
-  border-radius: 10px;
+  border-radius: 30px;
   border: solid 2px rgb(255, 255, 255);
   box-shadow: -1px 4px 1px 1px rgb(255, 255, 255);
   margin-bottom: 30px;
